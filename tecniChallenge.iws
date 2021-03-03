@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/AWS/ChallengeBank/awschallenge/awschallenge" value="PREVIEW" />
+        <entry key="D:/Curiosity_NU0007001_UnitariasJavaBeginner/calculoSalario" value="PREVIEW" />
+        <entry key="D:/Documentacion APOLO/Curiosity_NU0007001_DynamoDB/E2E" value="PREVIEW" />
+        <entry key="D:/Documentacion APOLO/Curiosity_NU0007001_DynamoDB/Integracion" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_MR_Test/audit_management" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_MR_Test/audit_management_test" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_MR_Test/deposits" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_MR_Test/products_management" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_MR_Test/products_management_test" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_TEST/SVE" value="PREVIEW" />
+        <entry key="D:/SVE/AW03600010_SVEAPOLO_TEST/SVE_Manual" value="PREVIEW" />
+        <entry key="D:/SVE/AW0360001_APOLOSVE_TEST/SVE" value="PREVIEW" />
+        <entry key="D:/SVE/AW0360001_SVE/Bancolombia.BOLE" value="PREVIEW" />
+        <entry key="D:/SVE/AW0360001_TESTBBDSVE/AW0360001_SVE_TEST/SVE" value="PREVIEW" />
+        <entry key="D:/SVE/SVE/SVE" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="288" />
+    <option name="y" value="222" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
