@@ -10,5 +10,4 @@ import org.junit.runner.RunWith;
         glue = { "co.com.yourcompany.certification.nameproject.stepdefinitions" },
         snippets = SnippetType.CAMELCASE)
 public class GitHubTestRunner {
-
 }
