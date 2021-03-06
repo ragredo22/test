@@ -6,11 +6,10 @@ Feature: Purchase a book on amazon.com
     Given I visit the page amazon
 
     When I'm looking for a book
-      | <name> |
+      | <nameBook> | <nameBookOptOne> | <nameBookOptTwo> |
     Then I see two interesting books
-      | <nameBooks> |
+
 
     Examples:
-      | name | nameBooks                                      |
-      |      | A practitioner's Guide to Software Test Desing |
-      |      | Paperback tab was not shown pre-selected       |
+      | nameBook             | nameBookOptOne                                 | nameBookOptTwo                           |
+      | Software Test Design | A practitioner's Guide to Software Test Design | Paperback tab was not shown pre-selected |

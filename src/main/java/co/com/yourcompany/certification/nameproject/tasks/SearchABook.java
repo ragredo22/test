@@ -1,9 +1,8 @@
 package co.com.yourcompany.certification.nameproject.tasks;
 
+import co.com.yourcompany.certification.nameproject.interactions.EndavaChallengeInteractions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-
-import java.util.List;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
@@ -11,19 +10,26 @@ public class SearchABook implements Task {
 
 
 
-    private SearchABook(){}
+
+    public static SearchABook withTheFollowinData() {
+        return instrumented(SearchABook.class);
+    }
 
 
     @Override
-    public <T extends Actor> void performAs(T actor) {
+    public <T extends Actor> void performAs(T theActor) {
+
+        authenticateUser(theActor);
 
     }
 
+    private <T extends Actor> void authenticateUser(T theActor) {
 
-    public static SearchABook withTheFollowinData(List<String> eBook){
+        theActor.attemptsTo(EndavaChallengeInteractions.endavaChallenge());
 
-        String a = eBook.get(0);
-        return instrumented(SearchABook.class, eBook);
+
+
     }
+
 
 }
