@@ -8,8 +8,6 @@ Feature: Purchase a book on amazon.com
     When I'm looking for a book
       | <nameBook> | <nameBookOptOne> | <nameBookOptTwo> | <assertOneAuthor> | <assertTwoSoldBy> | <assertThree> |
     Then I see two interesting books
-
-
     Examples:
       | nameBook             | nameBookOptOne                                 | nameBookOptTwo                           | assertOneAuthor | assertTwoSoldBy | assertThree |
       | Software Test Design | A practitioner's Guide to Software Test Design | Paperback tab was not shown pre-selected | Lee Copeland    | RAE global      | 0           |
