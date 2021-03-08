@@ -5,7 +5,33 @@ public class LookFor {
     private String searchABook;
     private String optionOne;
     private String optionTwo;
+    private String assertOneAuthor;
+    private String assertTwoSoldBy;
+    private String assertThreeCart;
 
+    public String getAssertOneAuthor() {
+        return assertOneAuthor;
+    }
+
+    public void setAssertOneAuthor(String assertOneAuthor) {
+        this.assertOneAuthor = assertOneAuthor;
+    }
+
+    public String getAssertTwoSoldBy() {
+        return assertTwoSoldBy;
+    }
+
+    public void setAssertTwoSoldBy(String assertTwoSoldBy) {
+        this.assertTwoSoldBy = assertTwoSoldBy;
+    }
+
+    public String getAssertThreeCart() {
+        return assertThreeCart;
+    }
+
+    public void setAssertThreeCart(String assertThreeCart) {
+        this.assertThreeCart = assertThreeCart;
+    }
 
     public String getSearchABook() {
         return searchABook;

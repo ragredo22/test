@@ -24,7 +24,9 @@ public class CreateEndavaChallengeEntity {
         lookFor.setSearchABook(data.get(0));
         lookFor.setOptionOne(data.get(1));
         lookFor.setOptionTwo(data.get(2));
-
+        lookFor.setAssertOneAuthor(data.get(3));
+        lookFor.setAssertTwoSoldBy(data.get(4));
+        lookFor.setAssertThreeCart(data.get(5));
         CreateEndavaChallengeEntity.lookFor = lookFor;
 
     }

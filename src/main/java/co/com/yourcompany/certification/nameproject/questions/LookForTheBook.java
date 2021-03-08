@@ -6,8 +6,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import org.junit.Assert;
 
-import static co.com.yourcompany.certification.nameproject.userinterface.objects.EndavaChallengeObj.TAB_INF_BOOK;
-
 public class LookForTheBook implements Question<Boolean> {
 
     public LookForTheBook(){}
@@ -23,6 +21,10 @@ public class LookForTheBook implements Question<Boolean> {
         String msgExpected = CreateEndavaChallengeEntity.getLookFor().getOptionTwo().toUpperCase();
 
       Assert.assertTrue("Messages doesn't match", msgExpected.contains(ansTabFront));
+
+        Assert.assertEquals(CreateEndavaChallengeEntity.getLookFor().getAssertOneAuthor(),ModelGeneric.getAssertOneAuthor());
+        Assert.assertEquals(CreateEndavaChallengeEntity.getLookFor().getAssertTwoSoldBy(),ModelGeneric.getAssertTwoSoldBy());
+        Assert.assertEquals(CreateEndavaChallengeEntity.getLookFor().getAssertThreeCart(),ModelGeneric.getAssertThreeCart());
 
         if(msgExpected.contains(ansTabFront)){
             resulted = true;
